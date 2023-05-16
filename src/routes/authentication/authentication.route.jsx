@@ -3,7 +3,7 @@
 //import { getRedirectResult } from "firebase/auth";
 //import { signInWithGooglePopUp, createUserDocFromAuth /*signInWithGoogleRedirect, auth*/ } from "../../utils/firebase/firebase.utils";
 import SignUpForm from "../../components/sign-up/sign-up.components";
-import SignInForm from "../../components/sign-in/sign-in-form";
+import SignInForm from "../../components/sign-in/sign-in-form.component";
 import './authentication.styles.scss'
 
 const Authentication = () => {

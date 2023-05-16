@@ -26,7 +26,6 @@ const SignUpForm = () => {
         if (password !== confirmPassword) return alert('Passwords do not match!')
         try {
             const { user } = await createAuthUserWithEmailandPassword(email, password);
-            
             await createUserDocFromAuth(user, { displayName });
             clearForm();
         } catch (error) {
